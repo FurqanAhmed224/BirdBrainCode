@@ -1,1 +1,8 @@
+// starts code: 
 
+public class Finch{
+	public static void main(String[] args) {
+		Finch f = new Finch();
+		
+		
+	}
