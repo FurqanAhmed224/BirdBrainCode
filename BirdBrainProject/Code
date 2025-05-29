@@ -3,6 +3,15 @@
 public class Finch{
 	public static void main(String[] args) {
 		Finch f = new Finch();
+}
+	public boolean isShaking()
+		System.out.print(true);
+
+
+
+// if the finch is shaking, means the ball is in the cup
+//                          if not its not in the cup
+// if the finch shakes, the finch should move to a random spot
 		
 		
-	}
+}
