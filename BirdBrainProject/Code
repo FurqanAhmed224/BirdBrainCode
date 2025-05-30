@@ -15,3 +15,22 @@ public class Finch{
 		
 		
 }
+
+// finch move code:
+
+public class example{
+	public static void main(String[] args) { 
+
+	//system.out.println();
+	
+	Finch f = new Finch();
+	
+	f.setMotors(10,10);
+	f.pause(3);
+	f.stop();
+	int t = (int)(Math.random() * 360) + 1;
+	f.setTurn("R" , "t", 50);
+	System.out.println(t);
+	f.stop();
+	
+}
