@@ -34,3 +34,13 @@ public class example{
 	f.stop();
 	
 }
+
+
+revamped code: 
+
+public class cupPongGame{
+	public static void main(String[] args){
+	Finch f = new Finch();
+
+	System.out.println("Shake the Finch when the ball goes into the cup")
+
