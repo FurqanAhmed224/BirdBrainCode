@@ -1,6 +1,28 @@
+Idea: 
+// a way for the robot to sensor if the ball goes in the cup, moves randomly to another position
+// if the finch is shaking, means the ball is in the cup, if it dosent shake, stay at that position                         
+// if the finch shakes, the finch should move to a random spot
+
+
 public class cupPongGame{
 	public static void main(String[] args){
 	Finch f = new Finch();
 
 	System.out.println("Shake the Finch when the ball goes into the cup")
+
+	while(!f.isShaking()) { // while the finch dosent shake, pause it
+		f.pause(10);
+	}
+	System.out.println("Shake detected, Finch should move now" ); //while the finch does shake, start the movement
+		f.setMotors(10,10);
+		f.pause(3);
+		f.stop();
+		int t = (int)(Math.random() * 360) + 1;
+		f.setTurn("R" , "t", 50);
+		System.out.println(t);
+		f.stop();
+		}
+		
+	}
+}
 
