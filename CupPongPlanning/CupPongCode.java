@@ -3,7 +3,6 @@ Idea:
 // if the finch is shaking, means the ball is in the cup, if it dosent shake, stay at that position                         
 // if the finch shakes, the finch should move to a random spot
 
-```java
 public class cupPongGame{
 	public static void main(String[] args){
 	Finch f = new Finch();
@@ -41,7 +40,6 @@ public class cupPongGame{
 	}
 		
 }
-```
 
 
 
