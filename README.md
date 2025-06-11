@@ -2,7 +2,7 @@
 
 Game: Cup Pong
 
-Code Written by: Furqan Ahmed
+Written by: Furqan Ahmed
 
 | **Progress**       | **Check?**                                  |
 |--------------------|--------------------------------------------|
