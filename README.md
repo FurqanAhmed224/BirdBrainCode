@@ -6,6 +6,6 @@ Code Written by: Furqan Ahmed
 
 | **Progress**       | **Check?**                                  |
 |--------------------|--------------------------------------------|
-| Plan for design   | Wanted to do some type of game, decided to do a Cup Pong Game |
-| 3D Design         | Made the cups pretty easily, had to change the size and play around with it, needed some type of platform to hold the cups and connect to the finch |
-| Code Developed    | Built an idea that I could use with the finch and the game, made sure that when the finch is shaken the robot moves to another space |
+| Plan for design   | Initially considered different game ideas before deciding on a Cup Pong game. |
+| 3D Design         | Easily created the cups, then refined their size through adjustments. Designed a stable platform to support the cups and connect to the Finch robot. |
+| Code Developed    | Developed a concept integrating the Finch robot with gameplay. Programmed the robot to move to a new position when shaken. |
