@@ -32,3 +32,22 @@ During my time making this project, **I Learned** different types of engines, fo
 
 My project has a lot of different factors to it that make it **stand out**. One standout feature of this project is how it brings an online game into the real world, combining it with the finch robot for a better style.
 
+---
+
+# Code to Highlight: (Random Movement)
+
+```java
+String direction = "L"; // Generate random turn direction: If less than 0.5, should turn left
+if (Math.random() > 0.5) { 
+    direction = "R"; // If greater than 0.5, should turn right
+}
+
+int turnAngle = (int)(Math.random() * 360) + 1; // Generate random turn angle
+f.setTurn(direction, turnAngle, 100); // Turn randomly
+f.stop();
+
+int moveDistance = (int) (Math.random() * 1000) + 500; // Move forward after turning
+f.setMotors(80, 80);
+f.pause(moveDistance);
+f.stop();
+```
