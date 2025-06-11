@@ -11,10 +11,10 @@ Code Written by: Furqan Ahmed
 | **Code Developed**    | Developed a concept that is involved with the Finch robot with my game. Programmed the robot to move to a new position when shaken. |
 
 ---
-<img src="https://github.com/user-attachments/assets/becacb96-0469-43a6-99e0-187b04a8f6db" alt="Design Cycle" width="200">
 
 <details>
   <summary>Design Cycle</summary>
+<img src="https://github.com/user-attachments/assets/becacb96-0469-43a6-99e0-187b04a8f6db" alt="Design Cycle" width="200">
 
   The **Design Cycle** had several key stages that was involved in my project:  
   - **Imagine/Plan:** Brainstorming various game concepts to explore different possibilities for the project.
