@@ -1,4 +1,4 @@
-# BirdBrainProject
+# CupPongProject
 
 Game: Cup Pong
 
