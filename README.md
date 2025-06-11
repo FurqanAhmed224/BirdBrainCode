@@ -1,7 +1,5 @@
 # CupPongProject
 
-Game: Cup Pong
-
 Written by: Furqan Ahmed
 
 | **Progress**       | **Check?**                                  |
