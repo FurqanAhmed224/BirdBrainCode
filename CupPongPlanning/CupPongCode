@@ -17,6 +17,14 @@ public class cupPongGame{
 		f.setMotors(100,100);
 		f.pause(1000);
 		f.stop();
+
+		//Generate random turn direction
+		String direction = "L"; // If less then 0.5, should turn left
+		if(Math.random() > 0.5){ 
+		   direction = "R"; // if greater then 0.5, should turn right
+		}
+
+		
 		
 		
 }
