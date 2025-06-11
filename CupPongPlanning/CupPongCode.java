@@ -22,17 +22,11 @@ public class cupPongGame{
 		if(Math.random() > 0.5){ 
 		   direction = "R"; // if greater then 0.5, should turn right
 		}
-
-		
-		//Generate random turn angle
-		int turnAngle = (int)(Math.random() * 360) + 1;
-
-		// turn randomly
-		f.setTurn(direction , turnAngle, 100);
+		int turnAngle = (int)(Math.random() * 360) + 1; //Generate random turn angle
+		f.setTurn(direction , turnAngle, 100); // turn randomly
 		f.stop();
-
-		//Move forward after turning
-		int moveDistance = (int) (Math.random() * 1000) + 500;
+		
+		int moveDistance = (int) (Math.random() * 1000) + 500; //Move forward after turning
 		f.setMotors(80,80);
 		f.pause(moveDistance);
 		f.stop();
