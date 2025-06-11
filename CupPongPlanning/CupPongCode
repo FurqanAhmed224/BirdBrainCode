@@ -25,7 +25,20 @@ public class cupPongGame{
 		}
 
 		
+		//Generate random turn angle
+		int turnAngle = (int)(Math.random() * 360) + 1;
+
+		// turn randomly
+		f.setTurn(direction , turnAngle, 100);
+		f.stop();
+
+		//Move forward after turning
+		int moveDistance = (int) (Math.random() * 1000) + 500;
+		f.setMotors(80,80);
+		f.pause(moveDistance);
+		f.stop();
 		
+	}
 		
 }
 ```
