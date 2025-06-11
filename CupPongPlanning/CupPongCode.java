@@ -17,13 +17,12 @@ public class cupPongGame{
 		f.pause(1000);
 		f.stop();
 
-		//Generate random turn direction
-		String direction = "L"; // If less then 0.5, should turn left
+		String direction = "L"; // Generate random turn direction:  If less then 0.5, should turn left
 		if(Math.random() > 0.5){ 
-		   direction = "R"; // if greater then 0.5, should turn right
+		   direction = "R";     //                                  If greater then 0.5, should turn right
 		}
 		int turnAngle = (int)(Math.random() * 360) + 1; //Generate random turn angle
-		f.setTurn(direction , turnAngle, 100); // turn randomly
+		f.setTurn(direction , turnAngle, 100);          // turn randomly
 		f.stop();
 		
 		int moveDistance = (int) (Math.random() * 1000) + 500; //Move forward after turning
